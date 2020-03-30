@@ -22,3 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+/Create table and column
+/Install Gem
+/Association
+/Validation
+/Define routes
+/Implement each controller(Pages, Articles, Users, Categories, Comments)
+/Install bootstrap
+/Implement each View(Pages, Articles, Users, Categories, Comments)
+/Implement Authentication(Application for login, Sessions for current_user)
+/Authenticate admin
+/Add carrierwave for image uploader to articles/index, show, users/index, show, categories/index and show
+/Create follow and follower Implementation
+/Create direct message Implementation
+/Create mailer Implementation
+/Create contact form Implementation
