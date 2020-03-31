@@ -24,11 +24,11 @@ Things you may want to cover:
 * ...
 
 
-/Create table and column
-/Install Gem
-/Association
-/Validation
-/Define routes
+/Create table and column <~ done
+/Install Gem <~ done
+/Association <~ done
+/Validation <~ done
+/Define routes <~ done
 /Implement each controller(Pages, Articles, Users, Categories, Comments)
 /Install bootstrap
 /Implement each View(Pages, Articles, Users, Categories, Comments)
