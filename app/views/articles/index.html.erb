@@ -19,7 +19,10 @@
               </div>
             </div>
             <% if article.categories.any? %>
-              <p>Categories: <%= render article.categories %></p>
+              <p>Categories: <% article.categories.each do |article_category| %>
+                              <%= link_to article_category.name, category_path(article_category) %>
+                            <% end %>
+              </p>
             <% end %>
             <% if logged_in? && (current_user == article.user || current_user.admin?) %>
               <div class="article-actions">
