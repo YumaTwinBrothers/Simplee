@@ -29,7 +29,7 @@ Things you may want to cover:
 /Association <~ done
 /Validation <~ done
 /Define routes <~ done
-/Implement each controller(Pages, Articles, Users, Categories, Comments)
+/Implement each controller(Pages, Articles, Users, Categories, Comments) <~pretty much done
 /Install bootstrap
 /Implement each View(Pages, Articles, Users, Categories, Comments)
 /Implement Authentication(Application for login, Sessions for current_user)
