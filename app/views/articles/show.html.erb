@@ -18,12 +18,14 @@
   <h4 class="center description"><strong>Description:</strong></h4>
   <hr>
   <%= simple_format(@article.description) %>
+  <% if @article.categories.any? %>
     <p>Categories: <% @article.categories.each do |article_category| %>
                   <%= link_to article_category.name, category_path(article_category) %>
                   <% end %>
     </p>
+  <% end %>
   <div class="article-actions">
-    <% if logged_in? && current_user = @article.user || current_user = admin? %>
+    <% if logged_in? && current_user = @article.user || current_user.admin? %>
       <%= link_to "Edit this article", edit_article(@article) %>
       <%= link_to "Delete this article", article_path(@article), method: :delete, data: { confirm: "Are you sure you want to delete this article?" } %>
     <% end %>
