@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-
+Create Insta app!!
 /Create table and column <~ done
 /Install Gem <~ done
 /Association <~ done
