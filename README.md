@@ -39,3 +39,5 @@ Things you may want to cover:
 /Create direct message Implementation
 /Create mailer Implementation
 /Create contact form Implementation
+
+* next time, create user and session controller first
